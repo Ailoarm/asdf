@@ -44,7 +44,6 @@ class Player{
     }
 
     update() {
-        // console.log(this.delay);
         if (this.delay > 0) {
             this.delay--;
         }
@@ -54,7 +53,6 @@ class Player{
         if (this.hit_delay > 0) {
             this.hit_delay--;
         }
-        // console.log(this.x);
     }
     
     draw() {
@@ -126,7 +124,6 @@ class Bullet{
     
     update() {
         this.draw();
-        // console.log(this.x);
         this.x += this.vel;
     }
 
